@@ -1,12 +1,11 @@
 {
-  "id":"w20-bootstrap-2",
-  "name":"W20 Bootstrap",
-  "description":"W20 bootstrap framework provider",
-
-  "modules" : {
-    "css-framework" : {
-      "path" : "{w20-bootstrap-2}/modules/css-framework",
-      "autoload" : true,
+  "id": "w20-bootstrap-2",
+  "name": "W20 Bootstrap",
+  "description": "W20 bootstrap framework provider",
+  "modules": {
+    "css-framework": {
+      "path": "{w20-bootstrap-2}/modules/css-framework",
+      "autoload": true,
       "configSchema": {
         "title": "CSS Framework module configuration",
         "type": "object",
@@ -14,29 +13,33 @@
       }
     }
   },
-
-  "requireConfig" : {
+  "requireConfig": {
     "map": {
       "*": {
         "{css-framework}": "{w20-bootstrap-2}"
       }
     },
-
     "paths": {
       "{bootstrap}": "${components-path:bower_components}/w20-bootstrap-2/libext/bootstrap",
       "{angular-bootstrap}": "${components-path:bower_components}/w20-bootstrap-2/libext/angular-bootstrap",
       "{font-awesome}": "${components-path:bower_components}/w20-bootstrap-2/libext/font-awesome"
     },
-
-    "shim" : {
-      "{bootstrap}/js/bootstrap" : [
+    "shim": {
+      "{bootstrap}/js/bootstrap": [
         "jquery"
       ],
-      "{angular-bootstrap}/ui-bootstrap" : [
+      "{angular-bootstrap}/ui-bootstrap": [
         "{angular}/angular",
         "{bootstrap}/js/bootstrap"
       ]
     }
+  },
+  "i18n": {
+    "en": [
+      "{w20-bootstrap-2}/i18n/messages-en.json"
+    ],
+    "fr": [
+      "{w20-bootstrap-2}/i18n/messages-fr.json"
+    ]
   }
-
 }
