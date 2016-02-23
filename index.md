@@ -1,11 +1,18 @@
 ---
-title: "Overview"
-addon: "W20 Bootstrap 2"
+title: "Basics"
+name: "W20 Bootstrap 2"
 repo: "https://github.com/seedstack/w20-bootstrap-2"
 author: "SeedStack"
 description: "Provides Twitter Bootstrap v2.0 support"
 min-version: "15.11+"
 frontend: "responsive"
+weight: -1
+tags:
+    - "css"
+    - "bootstrap"
+    - "design"
+zones:
+    - Addons
 menu:
     W20Bootstrap2:
         weight: 10
