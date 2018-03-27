@@ -21,6 +21,7 @@
     },
     "paths": {
       "{bootstrap}": "${components-path:node_modules}/w20-bootstrap-2/libext/bootstrap",
+      "{angular-animate}": "${components-path:node_modules}/angular-animate",
       "{angular-bootstrap}": "${components-path:node_modules}/w20-bootstrap-2/libext/angular-bootstrap",
       "{font-awesome}": "${components-path:node_modules}/w20-bootstrap-2/libext/font-awesome"
     },
@@ -28,9 +29,12 @@
       "{bootstrap}/js/bootstrap": [
         "jquery"
       ],
-      "{angular-bootstrap}/ui-bootstrap": [
+      "{angular-animate}/angular-animate":[
+        "{angular}/angular"
+      ],
+      "{angular-bootstrap}/ui-bootstrap-tpls": [
         "{angular}/angular",
-        "{bootstrap}/js/bootstrap"
+        "{angular-animate}/angular-animate"
       ]
     }
   },

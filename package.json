@@ -22,6 +22,7 @@
     "requirejs": "~2.1"
   },
   "dependencies": {
-    "@w20/w20": "^2.4.0"
+    "@w20/w20": "^2.4.0",
+    "angular-animate": "^1.6.9"
   }
 }
