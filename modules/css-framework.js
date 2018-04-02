@@ -13,10 +13,8 @@ define([
     'jquery',
     '{lodash}/lodash',
     '{angular}/angular',
-
-    '{bootstrap}/js/bootstrap',
     '[css]!{bootstrap}/css/bootstrap',
-    '{angular-bootstrap}/ui-bootstrap',
+    '{angular-bootstrap}/ui-bootstrap-tpls',
     '[css]!{font-awesome}/css/font-awesome',
 
     '{w20-core}/modules/env',

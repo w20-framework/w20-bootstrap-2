@@ -26,40 +26,40 @@
       "{font-awesome}": "${components-path:node_modules}/font-awesome"
     },
     "shim": {
-      "{bootstrap}/bootstrap-transition": [
+      "{bootstrap}/js/bootstrap-transition": [
         "jquery"
       ],
-      "{bootstrap}/bootstrap-alert": [
+      "{bootstrap}/js/bootstrap-alert": [
         "jquery"
       ],
-      "{bootstrap}/bootstrap-carousel": [
+      "{bootstrap}/js/bootstrap-carousel": [
         "jquery"
       ],
-      "{bootstrap}/bootstrap-collapse": [
+      "{bootstrap}/js/bootstrap-collapse": [
         "jquery"
       ],
-      "{bootstrap}/bootstrap-dropdown": [
+      "{bootstrap}/js/bootstrap-dropdown": [
         "jquery"
       ],
-      "{bootstrap}/bootstrap-modal": [
+      "{bootstrap}/js/bootstrap-modal": [
         "jquery"
       ],
-      "{bootstrap}/bootstrap-scrollspy": [
+      "{bootstrap}/js/bootstrap-scrollspy": [
         "jquery"
       ],
-      "{bootstrap}/bootstrap-tab": [
+      "{bootstrap}/js/bootstrap-tab": [
         "jquery"
       ],
-      "{bootstrap}/bootstrap-tooltip": [
+      "{bootstrap}/js/bootstrap-tooltip": [
         "jquery"
       ],
-      "{bootstrap}/bootstrap-popover": [
+      "{bootstrap}/js/bootstrap-popover": [
         "jquery"
       ],
-      "{bootstrap}/bootstrap-typeahead": [
+      "{bootstrap}/js/bootstrap-typeahead": [
         "jquery"
       ],
-      "{bootstrap}/bootstrap-affix": [
+      "{bootstrap}/js/bootstrap-affix": [
         "jquery"
       ],
       "{angular-animate}/angular-animate":[
