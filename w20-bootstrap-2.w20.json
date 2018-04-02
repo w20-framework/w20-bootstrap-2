@@ -20,20 +20,64 @@
       }
     },
     "paths": {
-      "{bootstrap}": "${components-path:node_modules}/bootstrap/dist",
+      "{bootstrap}": "${components-path:node_modules}/bootstrap-2.3.2",
       "{angular-animate}": "${components-path:node_modules}/angular-animate",
       "{angular-bootstrap}": "${components-path:node_modules}/angular-ui-bootstrap/dist",
       "{font-awesome}": "${components-path:node_modules}/font-awesome"
     },
     "shim": {
-      "{bootstrap}/js/bootstrap": [
+      "{bootstrap}/bootstrap-transition": [
+        "jquery"
+      ],
+      "{bootstrap}/bootstrap-alert": [
+        "jquery"
+      ],
+      "{bootstrap}/bootstrap-carousel": [
+        "jquery"
+      ],
+      "{bootstrap}/bootstrap-collapse": [
+        "jquery"
+      ],
+      "{bootstrap}/bootstrap-dropdown": [
+        "jquery"
+      ],
+      "{bootstrap}/bootstrap-modal": [
+        "jquery"
+      ],
+      "{bootstrap}/bootstrap-scrollspy": [
+        "jquery"
+      ],
+      "{bootstrap}/bootstrap-tab": [
+        "jquery"
+      ],
+      "{bootstrap}/bootstrap-tooltip": [
+        "jquery"
+      ],
+      "{bootstrap}/bootstrap-popover": [
+        "jquery"
+      ],
+      "{bootstrap}/bootstrap-typeahead": [
+        "jquery"
+      ],
+      "{bootstrap}/bootstrap-affix": [
         "jquery"
       ],
       "{angular-animate}/angular-animate":[
         "{angular}/angular"
       ],
       "{angular-bootstrap}/ui-bootstrap-tpls": [
-        "{angular}/angular",
+        "{bootstrap}/bootstrap-transition",
+        "{bootstrap}/bootstrap-alert",
+        "{bootstrap}/bootstrap-carousel",
+        "{bootstrap}/bootstrap-collapse",
+        "{bootstrap}/bootstrap-dropdown",
+        "{bootstrap}/bootstrap-modal",
+        "{bootstrap}/bootstrap-scrollspy",
+        "{bootstrap}/bootstrap-tab",
+        "{bootstrap}/bootstrap-tooltip",
+        "{bootstrap}/bootstrap-popover",
+        "{bootstrap}/bootstrap-typeahead",
+        "{bootstrap}/bootstrap-affix",
         "{angular-animate}/angular-animate"
       ]
     }
