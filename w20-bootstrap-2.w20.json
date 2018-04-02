@@ -66,18 +66,18 @@
         "{angular}/angular"
       ],
       "{angular-bootstrap}/ui-bootstrap-tpls": [
-        "{bootstrap}/bootstrap-transition",
-        "{bootstrap}/bootstrap-alert",
-        "{bootstrap}/bootstrap-carousel",
-        "{bootstrap}/bootstrap-collapse",
-        "{bootstrap}/bootstrap-dropdown",
-        "{bootstrap}/bootstrap-modal",
-        "{bootstrap}/bootstrap-scrollspy",
-        "{bootstrap}/bootstrap-tab",
-        "{bootstrap}/bootstrap-tooltip",
-        "{bootstrap}/bootstrap-popover",
-        "{bootstrap}/bootstrap-typeahead",
-        "{bootstrap}/bootstrap-affix",
+        "{bootstrap}/js/bootstrap-transition",
+        "{bootstrap}/js/bootstrap-alert",
+        "{bootstrap}/js/bootstrap-carousel",
+        "{bootstrap}/js/bootstrap-collapse",
+        "{bootstrap}/js/bootstrap-dropdown",
+        "{bootstrap}/js/bootstrap-modal",
+        "{bootstrap}/js/bootstrap-scrollspy",
+        "{bootstrap}/js/bootstrap-tab",
+        "{bootstrap}/js/bootstrap-tooltip",
+        "{bootstrap}/js/bootstrap-popover",
+        "{bootstrap}/js/bootstrap-typeahead",
+        "{bootstrap}/js/bootstrap-affix",
         "{angular-animate}/angular-animate"
       ]
     }
