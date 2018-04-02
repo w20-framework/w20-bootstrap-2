@@ -20,10 +20,10 @@
       }
     },
     "paths": {
-      "{bootstrap}": "${components-path:node_modules}/w20-bootstrap-2/libext/bootstrap",
+      "{bootstrap}": "${components-path:node_modules}/bootstrap/dist",
       "{angular-animate}": "${components-path:node_modules}/angular-animate",
-      "{angular-bootstrap}": "${components-path:node_modules}/w20-bootstrap-2/libext/angular-bootstrap",
-      "{font-awesome}": "${components-path:node_modules}/w20-bootstrap-2/libext/font-awesome"
+      "{angular-bootstrap}": "${components-path:node_modules}/angular-ui-bootstrap/dist",
+      "{font-awesome}": "${components-path:node_modules}/font-awesome"
     },
     "shim": {
       "{bootstrap}/js/bootstrap": [
