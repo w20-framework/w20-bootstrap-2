@@ -20,17 +20,65 @@
       }
     },
     "paths": {
-      "{bootstrap}": "${components-path:bower_components}/w20-bootstrap-2/libext/bootstrap",
-      "{angular-bootstrap}": "${components-path:bower_components}/w20-bootstrap-2/libext/angular-bootstrap",
-      "{font-awesome}": "${components-path:bower_components}/w20-bootstrap-2/libext/font-awesome"
+      "{bootstrap}": "${components-path:node_modules}/bootstrap-2.3.2",
+      "{angular-animate}": "${components-path:node_modules}/angular-animate",
+      "{angular-bootstrap}": "${components-path:node_modules}/angular-ui-bootstrap",
+      "{font-awesome}": "${components-path:node_modules}/font-awesome"
     },
     "shim": {
-      "{bootstrap}/js/bootstrap": [
+      "{bootstrap}/js/bootstrap-transition": [
         "jquery"
       ],
-      "{angular-bootstrap}/ui-bootstrap": [
-        "{angular}/angular",
-        "{bootstrap}/js/bootstrap"
+      "{bootstrap}/js/bootstrap-alert": [
+        "jquery"
+      ],
+      "{bootstrap}/js/bootstrap-carousel": [
+        "jquery"
+      ],
+      "{bootstrap}/js/bootstrap-collapse": [
+        "jquery"
+      ],
+      "{bootstrap}/js/bootstrap-dropdown": [
+        "jquery"
+      ],
+      "{bootstrap}/js/bootstrap-modal": [
+        "jquery"
+      ],
+      "{bootstrap}/js/bootstrap-scrollspy": [
+        "jquery"
+      ],
+      "{bootstrap}/js/bootstrap-tab": [
+        "jquery"
+      ],
+      "{bootstrap}/js/bootstrap-tooltip": [
+        "jquery"
+      ],
+      "{bootstrap}/js/bootstrap-popover": [
+        "jquery"
+      ],
+      "{bootstrap}/js/bootstrap-typeahead": [
+        "jquery"
+      ],
+      "{bootstrap}/js/bootstrap-affix": [
+        "jquery"
+      ],
+      "{angular-animate}/angular-animate":[
+        "{angular}/angular"
+      ],
+      "{angular-bootstrap}/ui-bootstrap-tpls": [
+        "{bootstrap}/js/bootstrap-transition",
+        "{bootstrap}/js/bootstrap-alert",
+        "{bootstrap}/js/bootstrap-carousel",
+        "{bootstrap}/js/bootstrap-collapse",
+        "{bootstrap}/js/bootstrap-dropdown",
+        "{bootstrap}/js/bootstrap-modal",
+        "{bootstrap}/js/bootstrap-scrollspy",
+        "{bootstrap}/js/bootstrap-tab",
+        "{bootstrap}/js/bootstrap-tooltip",
+        "{bootstrap}/js/bootstrap-popover",
+        "{bootstrap}/js/bootstrap-typeahead",
+        "{bootstrap}/js/bootstrap-affix",
+        "{angular-animate}/angular-animate"
       ]
     }
   },
